@@ -22,3 +22,4 @@ maven "maven-master"
             }
             }
 }
+}
