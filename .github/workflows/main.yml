@@ -14,4 +14,4 @@ jobs:
         run: mvn package
       - name: tomcat deploy
         run: curl -v -u ${{ secrets.USER_NAME }}:${{ secrets.PASSWORD_TOMCAT }} -T /home/runner/work/spring3-mvc-maven-xml-hello-world/spring3-mvc-maven-xml-hello-world/target/spring3-mvc-maven-xml-hello-world-1.2.war 
-        http://20.198.66.85:8080/manager/text/deploy?path=/spring3-github-action&update=true
+        'http://20.198.66.85:8080/manager/text/deploy?path=/spring3-github-action&update=true'
